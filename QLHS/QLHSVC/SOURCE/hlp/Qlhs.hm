@@ -1,0 +1,22 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_CANCEL_EDIT_SRVR                    0x18001
+ 
+// Prompts (IDP_*) 
+HIDP_OLE_INIT_FAILED                    0x30064
+HIDP_SOCKETS_INIT_FAILED                0x30068
+ 
+// Resources (IDR_*) 
+HIDR_SRVR_INPLACE                       0x20004
+HIDR_SRVR_EMBEDDED                      0x20005
+HIDR_QLHS                               0x20066
+HIDR_MAINFRAME                          0x20080
+HIDR_QLHSTYPE                           0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20063
+HIDD_QLHS_FORM                          0x20065
+HIDD_LOGON_DIALOG                       0x20082
+HIDD_PROVIDER_DIALOG                    0x20084
+ 
+// Frame Controls (IDW_*) 

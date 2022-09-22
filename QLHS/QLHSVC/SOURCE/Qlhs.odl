@@ -1,0 +1,42 @@
+// Qlhs.odl : type library source for Qlhs.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Qlhs.tlb).
+
+[ uuid(7921BDC3-9FAD-11D4-A3E4-B017BF6D810E), version(1.0) ]
+library Qlhs
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CQlhsDoc
+	
+	[ uuid(7921BDC4-9FAD-11D4-A3E4-B017BF6D810E) ]
+	dispinterface IQlhs
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CQlhsDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CQlhsDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CQlhsDoc
+	
+	[ uuid(CC94600B-9DE3-11D4-A3E4-9F67C96D1B09) ]
+	coclass Document
+	{
+		[default] dispinterface IQlhs;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

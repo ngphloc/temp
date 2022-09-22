@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Qlhs - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP81D0.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Qlhs.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\HQTCSDL\Qlhs\QlhsView.cpp"
+"D:\Hqtcsdl\Qlhs\Tool.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP81D0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP81D1.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Qlhs.pdb" /debug /machine:I386 /out:"Debug/Qlhs.exe" /pdbtype:sept 
+.\Debug\IpFrame.obj
+.\Debug\LogonDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\ProviderDlg.obj
+.\Debug\Qlhs.obj
+.\Debug\QlhsDoc.obj
+.\Debug\QlhsView.obj
+.\Debug\SrvrItem.obj
+.\Debug\StdAfx.obj
+.\Debug\Qlhs.res
+.\Debug\Tool.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP81D1.TMP"
+<h3>Output Window</h3>
+Compiling...
+Tool.cpp
+Generating Code...
+Compiling...
+QlhsView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Qlhs.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

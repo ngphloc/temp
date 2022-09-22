@@ -1,0 +1,30 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.qlhs = Qlhs.Document
+HKEY_CLASSES_ROOT\Qlhs.Document\shell\open\command = QLHS.EXE %1
+HKEY_CLASSES_ROOT\Qlhs.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\Qlhs.Document\shell\open\ddeexec\application = QLHS
+    ; note: the application is optional
+    ;  (it defaults to the app name in "command")
+
+HKEY_CLASSES_ROOT\Qlhs.Document = Qlhs Document
+HKEY_CLASSES_ROOT\Qlhs.Document\protocol\StdFileEditing\server = QLHS.EXE
+HKEY_CLASSES_ROOT\Qlhs.Document\protocol\StdFileEditing\verb\0 = &Edit
+HKEY_CLASSES_ROOT\Qlhs.Document\Insertable =
+HKEY_CLASSES_ROOT\Qlhs.Document\CLSID = {CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}
+
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09} = Qlhs Document
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\DefaultIcon = QLHS.EXE,1
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\LocalServer32 = QLHS.EXE
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\ProgId = Qlhs.Document
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\MiscStatus = 32
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\AuxUserType\3 = Qlhs
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\AuxUserType\2 = Qlhs
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\Insertable = 
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\verb\1 = &Open,0,2
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\verb\0 = &Edit,0,2
+HKEY_CLASSES_ROOT\CLSID\{CC94600B-9DE3-11D4-A3E4-9F67C96D1B09}\InprocHandler32 = ole32.dll

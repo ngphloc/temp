@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{7921BDFB-9FAD-11D4-A3E4-B017BF6D810E} = s 'Qlhs'
+		'Qlhs.EXE'
+		{
+			val AppID = s {7921BDFB-9FAD-11D4-A3E4-B017BF6D810E}
+		}
+	}
+}
