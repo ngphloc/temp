@@ -1,0 +1,131 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Photo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.bat" with contents
+[
+@echo off
+echo. >"hlp\Photo.hm"
+echo // Commands (ID_* and IDM_*) >>"hlp\Photo.hm"
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 resource.h >>"hlp\Photo.hm"
+echo. >>"hlp\Photo.hm"
+echo // Prompts (IDP_*) >>"hlp\Photo.hm"
+makehm IDP_,HIDP_,0x30000 resource.h >>"hlp\Photo.hm"
+echo. >>"hlp\Photo.hm"
+echo // Resources (IDR_*) >>"hlp\Photo.hm"
+makehm IDR_,HIDR_,0x20000 resource.h >>"hlp\Photo.hm"
+echo. >>"hlp\Photo.hm"
+echo // Dialogs (IDD_*) >>"hlp\Photo.hm"
+makehm IDD_,HIDD_,0x20000 resource.h >>"hlp\Photo.hm"
+echo. >>"hlp\Photo.hm"
+echo // Frame Controls (IDW_*) >>"hlp\Photo.hm"
+makehm IDW_,HIDW_,0x50000 resource.h >>"hlp\Photo.hm"
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.bat"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.bat" with contents
+[
+@echo off
+copy "hlp\Photo.cnt" .\Debug
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.bat"
+Creating command line "rc.exe /l 0x409 /fo"Debug/Photo.res" /d "_DEBUG" "D:\XLA\Photograph\Source\Photo.rc"" 
+Making help include file...
+Copying contents file...
+        1 file(s) copied.
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Photo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\XLA\Photograph\Source\ChildFrm.cpp"
+"D:\XLA\Photograph\Source\ChooseNameDlg.cpp"
+"D:\XLA\Photograph\Source\CutDlg.cpp"
+"D:\XLA\Photograph\Source\font.cpp"
+"D:\XLA\Photograph\Source\HistView.cpp"
+"D:\XLA\Photograph\Source\Image.cpp"
+"D:\XLA\Photograph\Source\ImageToolKit.cpp"
+"D:\XLA\Photograph\Source\InfoDlg.cpp"
+"D:\XLA\Photograph\Source\MainFrm.cpp"
+"D:\XLA\Photograph\Source\MDIClient.cpp"
+"D:\XLA\Photograph\Source\msflexgrid.cpp"
+"D:\XLA\Photograph\Source\OperatorDlg.cpp"
+"D:\XLA\Photograph\Source\Photo.cpp"
+"D:\XLA\Photograph\Source\PhotoDoc.cpp"
+"D:\XLA\Photograph\Source\PhotoView.cpp"
+"D:\XLA\Photograph\Source\picture.cpp"
+"D:\XLA\Photograph\Source\rowcursor.cpp"
+"D:\XLA\Photograph\Source\Splash.cpp"
+"D:\XLA\Photograph\Source\TipDlg.cpp"
+"D:\XLA\Photograph\Source\ToggleBar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Photo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\XLA\Photograph\Source\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Photo.pdb" /debug /machine:I386 /out:"Debug/Photo.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\ChooseNameDlg.obj
+.\Debug\CutDlg.obj
+.\Debug\font.obj
+.\Debug\HistView.obj
+.\Debug\Image.obj
+.\Debug\ImageToolKit.obj
+.\Debug\InfoDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\MDIClient.obj
+.\Debug\msflexgrid.obj
+.\Debug\OperatorDlg.obj
+.\Debug\Photo.obj
+.\Debug\PhotoDoc.obj
+.\Debug\PhotoView.obj
+.\Debug\picture.obj
+.\Debug\rowcursor.obj
+.\Debug\Splash.obj
+.\Debug\StdAfx.obj
+.\Debug\TipDlg.obj
+.\Debug\ToggleBar.obj
+.\Debug\Photo.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+ChooseNameDlg.cpp
+CutDlg.cpp
+font.cpp
+HistView.cpp
+Image.cpp
+ImageToolKit.cpp
+InfoDlg.cpp
+MainFrm.cpp
+MDIClient.cpp
+msflexgrid.cpp
+OperatorDlg.cpp
+Photo.cpp
+PhotoDoc.cpp
+PhotoView.cpp
+picture.cpp
+rowcursor.cpp
+Splash.cpp
+TipDlg.cpp
+ToggleBar.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Photo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

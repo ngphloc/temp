@@ -1,0 +1,48 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_IMAGE_NORMAL                        0x17FF8
+HID_IMAGE_CENTER                        0x17FF9
+HID_IMAGE_STRETCH                       0x17FFA
+HID_IMAGE_GRAYSCALE                     0x17FFB
+HID_IMAGE_INFORMATION                   0x17FFC
+HID_TOOLS_OPERATOR_ADD                  0x18002
+HID_TOOLS_OPERATOR_SUB                  0x18003
+HID_TOOLS_OPERATOR_MUL                  0x18004
+HID_TOOLS_OPERATOR_DIV                  0x18005
+HID_TOOLS_OPERATOR_AND                  0x18006
+HID_TOOLS_OPERATOR_OR                   0x18007
+HID_TOOLS_OPERATOR_XOR                  0x18008
+HID_TOOLS_OPERATOR_NOT                  0x18009
+HID_TOOLS_OPERATOR_MIN                  0x1800A
+HID_TOOLS_OPERATOR_MAX                  0x1800B
+HID_TOOLS_OPERATOR_ABS                  0x1800C
+HID_TOOLS_OPERATOR_TICHCHAP             0x1800D
+HID_TOOLS_FILTER_LINEARFILTER           0x1800E
+HID_TOOLS_FILTER_MEDIANFILTER           0x1800F
+HID_ENHANCE_HISTOGRAMEQUALIZATION       0x18019
+HID_VIEW_OPERATOR_TOOLBAR               0x1802B
+HID_IMAGE_CUT                           0x18035
+HID_SCROLL_BUTTON                       0x18036
+HID_BUTTON32823                         0x18037
+HID_IMAGE_SAVEIMAGESARRAY               0x18038
+HID_INDICATOR_CLOCK                     0x1E706
+ 
+// Prompts (IDP_*) 
+HIDP_OLE_INIT_FAILED                    0x30065
+HIDP_SOCKETS_INIT_FAILED                0x30068
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_PHOTOTYPE                          0x20081
+HIDR_PHOTOTYPEHIST                      0x20082
+HIDR_OPERATOR_TOOLBAR                   0x2008D
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_TIP                                0x20067
+HIDD_OPERATOR_CHOOSE_DIALOG             0x20084
+HIDD_INFO_DIALOG                        0x20085
+HIDD_CUT_DIALOG                         0x2008F
+HIDD_CHOOSE_NAME_DIALOG                 0x20090
+ 
+// Frame Controls (IDW_*) 
